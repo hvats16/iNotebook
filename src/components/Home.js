@@ -1,12 +1,10 @@
-import React from "react";
-import Notes from "./Notes";
+import Notes from './Notes';
 
-function Home() {
-  return (
-    <div>
-      <Notes />
-    </div>
-  );
+export const Home = () => {
+
+    return (
+        <div> 
+            <Notes/>
+        </div>
+    )
 }
-
-export default Home;
